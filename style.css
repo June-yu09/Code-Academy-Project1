@@ -1,0 +1,81 @@
+div.body {
+  text-align: center;
+  padding: 150px;
+
+}
+
+h1{
+  font-weight: 700;
+  padding: 50px 60px;
+  text-align: center;
+}
+
+h3{
+  font-weight: 300;
+  padding: 30px 40px;
+}
+
+
+li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: lightseagreen;
+  }
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 450px;
+  }
+
+div.gallery:hover {
+    border: 2px solid #777;
+  }
+  
+div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+div.contact_info {
+  text-align: center;
+  padding: 50px;
+
+}
+
+table tr td{
+  border: 1px solid blanchedalmond;
+  font-size: xx-large;
+  border-collapse: collapse;
+  
+}
+tr td {
+  padding:10px;
+}
+
+div.time{
+  text-align: center;
+  padding: 50px;
+  
+}
+
+.container {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row ;
+}
+
+.item {
+  width:400px;
+  height:400px;
+
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration & Reservation - Gallery Y</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <ul style="
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: whitesmoke;">
+        <li style="float:left;"><a href="home.html">Home</a></li>
+        <li style="float:left;"><a href="registration.html"><b>Registration & Reservation</b> </a></li>
+        <li style="float:left;"><a href="special.html">Special</a></li>
+        <li style="float:left;"><a href="contact.html">Contact us </a></li>
+    </ul>
+
+    <h1>Register your visiting</h1>
+    <hr>
+
+    <form action="confirmation-page.html" class="container">
+        <div class="item">
+            <h2>Name</h2>
+            <label for="fname">Firstname:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Thomas"><br>
+            <label for="lname">Lastname:</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Mueller" ><br>
+        </div>
+        <div class="item">
+            <h2>Email</h2>
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" id="email" placeholder="user@gmail.com" ><br>
+
+        </div>
+
+        <div class="item">
+            <h2>Gender</h2>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+        </div>
+
+        <div class="item">
+            <h2>Preferences</h2>
+            <input type="checkbox" id="painting" name="painting" value="painting">
+            <label for="painting">Painting</label><br>
+            <input type="checkbox" id="scupture" name="scupture" value="scupture">
+            <label for="scupture">Scupture</label><br>
+            <input type="checkbox" id="videoart" name="videoart" value="videoart">
+            <label for="videoart">Video Art</label><br>
+            <input type="checkbox" id="ceramics" name="ceramics" value="ceramics" >
+            <label for="ceramics">Ceramics</label><br>
+            <input type="checkbox" id="architecture" name="architecture" value="architecture" >
+            <label for="architecture">Architecture</label><br>
+
+        </div>
+
+        <div class="item">
+            <h2>How many person/people will visit us?</h2>
+            <select name="num" id="num">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+
+        </div>
+
+        <div class="item">
+            <h2>Which date?</h2>
+            <input type="date" id="visitingdate" name="visitingdate">
+        </div>
+
+
+        <div class="item">
+        <h2>Terms and Conditions</h2>
+
+        <ul style="font-weight:bold">
+            
+            <li style="font-weight:bold">uae cumque rerum corporis itaque quo laudantium possimus similique atque at cons
+                <ol style="font-weight:bold">
+                    <li style="font-weight:bold"> repellat omnis. Doloremque delectus fugiat placeat  fugit veritatis hic!</li>
+                    <li style="font-weight:bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit ipsa iusto iste magni vel, </li>
+                </ol>
+            </li>
+            <li style="font-weight:bold">Lorem ipsum dolor sit amariatur quod, soluta dolor</li>
+        </ul>
+        
+
+        <input type="checkbox" name="agree" id="agree"> I agree with those terms and conditions
+
+
+        <button type="submit">Submit</button>
+
+        </div>
+
+        
+
+    </form>
+</body>
+</html>

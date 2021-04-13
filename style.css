@@ -15,6 +15,19 @@ h3{
   padding: 30px 40px;
 }
 
+.main {
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.terms{
+  font-weight: bold;
+}
+
 
 li a {
     display: block;
@@ -78,4 +91,29 @@ div.time{
   width:400px;
   height:400px;
 
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: whitesmoke;
+}
+
+.navbar_item{
+  float:left;
+}
+
+.home_button{
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 50px 600px;
+  cursor: pointer;
+  background-color: aquamarine;
 }
